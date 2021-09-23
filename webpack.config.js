@@ -9,7 +9,7 @@ module.exports = {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/',
   },
-  mode: 'production',
+  mode: 'development',
   devServer: {
     port: 9002,
     historyApiFallback: true,
