@@ -1,8 +1,8 @@
 import React from 'react';
 import { Jumbotron, Button } from 'reactstrap';
 
-const Home = () => {
-  const callFunction = () => console.log('Hello World');
+const Home = ({ submitButton }) => {
+  const callFunction = () => submitButton(777);
   return (
     <div>
       <Jumbotron>
