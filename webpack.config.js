@@ -7,7 +7,7 @@ module.exports = {
   output: {
     filename: '[name].js',
     path: path.resolve(__dirname, './dist'),
-    publicPath: '/',
+    publicPath: 'https://youthful-goldwasser-a59467.netlify.app/',
   },
   mode: 'development',
   devServer: {
