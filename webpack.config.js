@@ -45,7 +45,8 @@ module.exports = {
       exposes: {
         './HomePage': './src/Home.js',
         './Teste': './src/Teste.js'
-      }
+      },
+      shared: require("./package.json").dependencies
     })
   ]
 }
