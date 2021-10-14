@@ -1,10 +1,10 @@
 import React from 'react';
 
-const Teste = ({ submitButton }) => {
+const Teste = ({ submitButton, nameButton }) => {
   const callFunction = () => submitButton(777);
   return (
     <div>
-        <h3>Teste Manooooo</h3>
+        <h3>{nameButton}</h3>
     </div>
   )
 }
